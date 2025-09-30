@@ -1,0 +1,26 @@
+let jogadores = [
+    {
+        nome: "zé da manga",
+        status: true,
+    },
+    {
+        nome: "ben 10",
+        status: false,
+    },
+    {
+        nome: "naruto",
+        status: false,    
+    }   
+    
+]
+
+
+
+    for(let i = 0; i < jogadores.length; i++){
+        if (jogadores[i].status){
+
+             console.log (`${jogadores[i].nome} Está Ativo`)
+        }   
+    }
+
+   
